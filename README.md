@@ -33,6 +33,8 @@ Details of the service routines for interrupts and system calls are shown below
 
 
 ## Summary
+
+The design summary is as shown below. For details on the project please refer the report -> ![Report]
 ![image](https://user-images.githubusercontent.com/44490133/150555238-69b29385-c32a-40ce-a604-2ccc57eb2c88.png)
 
 ![image](https://user-images.githubusercontent.com/44490133/150555831-aa46d2ff-9b18-418a-be24-7accec94fc5c.png)
