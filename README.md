@@ -6,8 +6,9 @@ A project on design of RISC-V processor from RTL specfication to GDS|| generatio
 
 Core Details:
 
-- core implementing the RISC-V ISA,  2 interrupt inputs, 
-- 16 kB on-chip PRAM, used as  program memory, (used as DRAM  too for unused locations)  External bus master interface
-- Init-controller for PRAM  initializations
-- memory-controller controls access  to PRAM and the external bus  interface based on Memory layout.
+- core implementing the RISC-V ISA (I- Integer extensions, M- Multiplication and division extension)  2 non maskable interrupt inputs 
+- 16 kB on-chip PRAM, used as  program memory(also used as DRAM for unused locations). 
+- External bus interface with slave memory for extension of the storage.  
+- Init-controller for PRAM  initializations (copies the machine code from the external memory to internal memory)
+- memory-controller controls access  to PRAM and the external bus interface based on Memory layout.
 
